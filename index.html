@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website Responsive</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar ft">
+            <h1 class="brand">Fitness</h1>
+            <div class="nav-items ft">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                <ul class="nav-links ft">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#calculator">Calculator</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li class="pdr-20"><a href="#membership">Membership</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-content ft">
+            <div class="hero-descr">
+                <h1>Get body in <br> <span id="shape">shape</span> & stay healthy</h1>
+                <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                <div class="header-btn df">
+                    <button class="btn-main">Join <span id="club">Club</span> Now!</button>
+                    <button class="btn-transparent">Download App</button>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="images/Images 2.png" alt="hero image">
+            </div>
+        </div>
+        <div class="float"> 
+            <div class="btn-1 ft">
+                <div class="btn-1-icon">
+                    <i class="fa-solid fa-circle-play" style="color: #e6533c;"></i>
+                </div>
+                <div class="btn-1-txt">
+                    <h4>350+</h4>
+                    <p>Video Tutorial</p>
+                </div>
+            </div>
+            <div class="btn-2">
+                <h4>500+</h4>
+                <p>Free Workout Videos</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hab">
+            <div class="hab-content ft">
+                <h2 class="body-title">
+                    Change Your Habits
+                </h2>
+                <p class="body-descriptions">
+                    We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+                </p>
+            </div>
+            <div class="habbits-container ft">
+                <div class="habbits-card ft">
+                    <div class="card-img"><img src="images/image 3.png" alt=""></div>
+                    <div class="card-details">
+                        <h4>Movement</h4>
+                        <p>Every move counts, building strength and confidence with rep.</p>
+                    </div>
+                </div>
+
+                <div class="habbits-card ft">
+                    <div class="card-img"><img src="images/image 2.png" alt=""></div>
+                    <div class="card-details">
+                        <h4>Time</h4>
+                        <p>Time invested in fitness is time invested in yourself.</p>
+                    </div>
+                </div>
+
+                <div class="habbits-card ft">
+                    <div class="card-img"><img src="images/image 4.png" alt=""></div>
+                    <div class="card-details">
+                        <h4>Practice</h4>
+                        <p>Daily practice, lasting results: build strength with every rep.</p>
+                    </div>
+                </div>
+
+                <div class="habbits-card ft">
+                    <div class="card-img"><img src="images/image 5.png" alt=""></div>
+                    <div class="card-details">
+                        <h4>Weight Loss</h4>
+                        <p>Weight loss is a journey, every step brings you closer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="run ft">
+            <div class="run-content">
+                <h2 class="body-title">Run an Extra <br> Mile Easily</h2>
+                <p class="body-descriptions">
+                    Running is the action of rapidly propelling yourself forward on foot. When running, there is a moment when both feet are off the ground (as opposed to walking, when one foot is
+                     always on the ground), making it a high-impact exercise.
+                </p>
+                <button class="btn-main">Join Now</button>
+            </div>
+            <div class="run-img">
+                <img src="images/run.jpg" alt="">
+            </div>
+        </section>
+        <section class="calculator" id="calculator">
+            <div class="calc-title ft">
+                <h2 class="body-title">BMI Calculator</h2>
+                <p class="body-descriptions">Track your progress: calculate your BMI to understand your health and guide your fitness journey</p>
+            </div>
+            <div class="calculator-container">
+                <div class="calculator ft">
+                    <div class="calculator-left">
+                        <h2 class="calc-left-title">BMI Calculator Chart</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>BMI</th>
+                                    <th>Weight Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td>18.5 - 24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td>25.0 - 29.9</td>
+                                    <td>Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td>30.0 - and Above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="calculator-right">
+                        <div class="calc-right-descriptions">
+                            <h2 class="calc-left-title">Calculate your BMI</h2>
+                            <p class="body-descriptions">Track your progress: calculate your BMI to understand your health and guide your fitness journey</p>
+                        </div>
+                        <div class="form-container">
+                           <form class="form">
+                            <input type="text" id="height-cm" name="height-cm" required placeholder="Height/cm">
+
+                            <input type="text" id="weight-kg" name="weight-kg" required placeholder="Weight/kg">
+                            <br><br>
+                            <input type="text" id="age" name="age" required placeholder="Age">
+                
+                            <select id="sex" name="sex" required placeholder="Sex">
+                                <option value="">Sex</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="non-binary">Non-binary</option>
+                                <option value="other">Other</option>
+                            </select>
+                
+                            <select id="activity" name="activity">
+                                <option value="">Select an activity factor</option>
+                                <option value="usa">Run</option>
+                                <option value="canada">Swimming</option>
+                                <option value="uk">Treadmill</option>
+                            </select>
+                            <br><br>
+                
+                            <input class="btn-main" id="submit" type="submit" value="Calculate">
+                           </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="meet" id="team">
+            <div class="meet-head">
+                <h2 class="body-title">Meet Our Team</h2>
+                <p class="body-descriptions">Dedicated professionals committed to your fitness success, bringing expertise and passion to every session.</p>
+            </div>
+            <div class="meet-container">
+                <div class="meet-card">
+                    <div class="card ft" id="card-1">
+                        <h4 class="card-h">Jerome Bell</h4>
+                        <p class="body-descriptions">Trainer</p>
+                    </div>
+                    <div class="card ft" id="card-2">
+                        <h4 class="card-h">Cameron Williamson</h4>
+                        <p class="body-descriptions">Trainer</p>
+                    </div>
+                    <div class="card ft" id="card-3">
+                        <h4 class="card-h">Darrell Steward</h4>
+                        <p class="body-descriptions">Trainer</p>
+                    </div>
+                    <div class="card ft" id="card-4">
+                        <h4 class="card-h">Dianne Russell</h4>
+                        <p class="body-descriptions">Trainer</p>
+                    </div>
+                    <div class="card ft" id="card-5">
+                        <h4 class="card-h">Cody Fisher</h4>
+                        <p class="body-descriptions">Trainer</p>
+                    </div>
+                    <div class="card ft" id="card-6">
+                        <h4 class="card-h">Theresa Webb</h4>
+                        <p class="body-descriptions">Trainer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="plans" id="membership">
+            <div class="plans-content ft">
+                <h2 class="body-title">Membership Plans</h2>
+                <p class="body-descriptions">Fit Plans for Every Goal with Customizable Memberships to Match Your Fitness Journey.</p>
+            </div>
+            <div class="card-area">
+                <div class="card-container">
+                    <div class="box-area">
+                        <div class="box">
+                            <img src="images/img2.png" alt="overlay background">
+                            <div class="overlay">
+                                <h3>Basic Package<br><span id="men">(MEN)</span></h3>
+                                <ul>
+                                    <li>Access to all standard gym equipment.</li>
+                                    <li>Fitness assessment upon joining.</li>
+                                    <li>Two personal training sessions per month.</li>
+                                    <li>Unlimited access to locker and showers.</li>
+                                    <li>Basic nutritional guidance with updates.</li>
+                                </ul>
+                            <button class="btn-main">Join Now</button>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="images/img1.png" alt="overlay background">
+                            <div class="overlay">
+                                <h3>Pro Package<br><span id="men">(MEN)</span></h3>
+                                <ul>
+                                    <li>Full access of gym facilities, with premium areas.</li>
+                                    <li>Personal training sessions with a certified trainer.</li>
+                                    <li>Personalized workout and nutrition plan tailored to your goals.</li>
+                                    <li>Free entry to all group fitness classes, including advanced sessions.</li>
+                                    <li>Priority booking for equipment and training sessions.</li>
+                                </ul>
+                            <button class="btn-main">Join Now</button>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="images/img3.png" alt="overlay background">
+                            <div class="overlay">
+                                <h3>Women Package<br><span id="men">(Special)</span></h3>
+                                <ul>
+                                    <li>Gym facilities with women-only workout spaces.</li>
+                                    <li>Personalized sessions with female trainers.</li>
+                                    <li>Specialized group classes like yoga & pilates.</li>
+                                    <li>Nutrition guidance specifically designed.</li>
+                                    <li>Complimentary wellness workshops and seminars.</li>
+                                </ul>
+                            <button class="btn-main">Join Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer-content ft">
+            <div class="footer-header">
+                <h1 class="brand h70">Fitness</h1>
+                <p class="body-descriptions">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+            </div>
+            <div class="footer-links ft">
+                <div class="footer-link">
+                    <h4>Get Started</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#calculator">Calculator Us</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#membership">Membership</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/akikhosainnirob">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/akikhossainnirob">Instagram</a></li>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyrights">
+            <p class="body-descriptions">All right reserved &copy;Fitness 2024</p>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/d2e79cd343.js" crossorigin="anonymous"></script>
+</body>
+</html>
